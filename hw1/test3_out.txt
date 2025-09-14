@@ -1,0 +1,69 @@
+Welcome to HW 1.
+Enter 1 to add a new appointment.
+Enter 2 to search appointments by date.
+
+Enter an option or 0 to quit: 1
+
+First name: Ethan
+Last name: Hunt
+Description: Mission briefing
+Date (MM-DD-YYYY): 11-05-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 1
+
+First name: Sophia
+Last name: Clark
+Description: Morning yoga
+Date (MM-DD-YYYY): 11-01-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
+
+Enter an option or 0 to quit: 1
+
+First name: Liam
+Last name: Turner
+Description: Pay utilities
+Date (MM-DD-YYYY): 11-10-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
+
+Enter an option or 0 to quit: 1
+
+First name: Olivia
+Last name: Baker
+Description: Doctor follow-up
+Date (MM-DD-YYYY): 11-15-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 11-05-2025
+All appointments on 11-5-2025:
+[Onetime]
+Name: Hunt, Ethan
+Date: 11-5-2025
+Description: Mission briefing
+Made on: 2025-09-14T13:17:21.220299
+[Daily]
+Name: Clark, Sophia
+Date: 11-1-2025
+Description: Morning yoga
+Made on: 2025-09-14T13:17:21.230467
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 11-10-2025
+All appointments on 11-10-2025:
+[Daily]
+Name: Clark, Sophia
+Date: 11-1-2025
+Description: Morning yoga
+Made on: 2025-09-14T13:17:21.230467
+[Monthly]
+Name: Turner, Liam
+Date: 11-10-2025
+Description: Pay utilities
+Made on: 2025-09-14T13:17:21.231903
+
+Enter an option or 0 to quit: 0
+
+Goodbye.

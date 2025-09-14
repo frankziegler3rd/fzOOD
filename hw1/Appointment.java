@@ -47,7 +47,7 @@ public abstract class Appointment {
 
 	public String toString() {
 		return "Name: " + lastName + ", " + firstName + 
-			   "\nDate: " + date.getMonthValue() + "/" + date.getDayOfMonth() + "/" + date.getYear() +
+			   "\nDate: " + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() +
 			   "\nDescription: " + description +
 			   "\nMade on: " + timestamp;
 	}

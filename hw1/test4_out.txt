@@ -1,0 +1,64 @@
+Welcome to HW 1.
+Enter 1 to add a new appointment.
+Enter 2 to search appointments by date.
+
+Enter an option or 0 to quit: 1
+
+First name: Mark
+Last name: Johnson
+Description: Project deadline
+Date (MM-DD-YYYY): 12-15-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 1
+
+First name: Ella
+Last name: Williams
+Description: Daily journaling
+Date (MM-DD-YYYY): 12-01-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
+
+Enter an option or 0 to quit: 1
+
+First name: Noah
+Last name: Davis
+Description: Credit card bill
+Date (MM-DD-YYYY): 06-15-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
+
+Enter an option or 0 to quit: 1
+
+First name: Mia
+Last name: Garcia
+Description: Doctor visit
+Date (MM-DD-YYYY): 12-15-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 12-15-2025
+All appointments on 12-15-2025:
+[Onetime]
+Name: Johnson, Mark
+Date: 12-15-2025
+Description: Project deadline
+Made on: 2025-09-14T13:19:16.136324
+[Daily]
+Name: Williams, Ella
+Date: 12-1-2025
+Description: Daily journaling
+Made on: 2025-09-14T13:19:16.146654
+[Monthly]
+Name: Davis, Noah
+Date: 6-15-2025
+Description: Credit card bill
+Made on: 2025-09-14T13:19:16.149683
+[Onetime]
+Name: Garcia, Mia
+Date: 12-15-2025
+Description: Doctor visit
+Made on: 2025-09-14T13:19:16.151894
+
+Enter an option or 0 to quit: 0
+
+Goodbye.
