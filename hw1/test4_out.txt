@@ -38,26 +38,10 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 12-15-2025
 All appointments on 12-15-2025:
-[Onetime]
-Name: Johnson, Mark
-Date: 12-15-2025
-Description: Project deadline
-Made on: 2025-09-14T13:19:16.136324
-[Daily]
-Name: Williams, Ella
-Date: 12-1-2025
-Description: Daily journaling
-Made on: 2025-09-14T13:19:16.146654
-[Monthly]
-Name: Davis, Noah
-Date: 6-15-2025
-Description: Credit card bill
-Made on: 2025-09-14T13:19:16.149683
-[Onetime]
-Name: Garcia, Mia
-Date: 12-15-2025
-Description: Doctor visit
-Made on: 2025-09-14T13:19:16.151894
+[ONETIME]: Johnson, Mark - Project deadline (12-15-2025) | created 2025-09-15T09:17:05.793531
+[DAILY]: Williams, Ella - Daily journaling (12-1-2025) | created 2025-09-15T09:17:05.812134
+[MONTHLY]: Davis, Noah - Credit card bill (6-15-2025) | created 2025-09-15T09:17:05.815884
+[ONETIME]: Garcia, Mia - Doctor visit (12-15-2025) | created 2025-09-15T09:17:05.819718
 
 Enter an option or 0 to quit: 0
 

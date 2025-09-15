@@ -30,31 +30,15 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
 All appointments on 9-14-2025:
-[Onetime]
-Name: Doe, John
-Date: 9-14-2025
-Description: Dentist appointment
-Made on: 2025-09-14T13:17:07.710548
-[Daily]
-Name: Smith, Jane
-Date: 1-1-2025
-Description: Take medicine
-Made on: 2025-09-14T13:17:07.723137
+[ONETIME]: Doe, John - Dentist appointment (9-14-2025) | created 2025-09-15T09:17:03.794622
+[DAILY]: Smith, Jane - Take medicine (1-1-2025) | created 2025-09-15T09:17:03.809397
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 01-01-2025
 All appointments on 1-1-2025:
-[Daily]
-Name: Smith, Jane
-Date: 1-1-2025
-Description: Take medicine
-Made on: 2025-09-14T13:17:07.723137
-[Monthly]
-Name: Brown, Bob
-Date: 1-1-2025
-Description: Pay rent
-Made on: 2025-09-14T13:17:07.726851
+[DAILY]: Smith, Jane - Take medicine (1-1-2025) | created 2025-09-15T09:17:03.809397
+[MONTHLY]: Brown, Bob - Pay rent (1-1-2025) | created 2025-09-15T09:17:03.812998
 
 Enter an option or 0 to quit: 0
 

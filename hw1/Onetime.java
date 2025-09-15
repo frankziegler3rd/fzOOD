@@ -18,6 +18,6 @@ class Onetime extends Appointment {
 	}
 
 	public String toString() {
-        return "[Onetime]\n" + super.toString();
+        return "[ONETIME]: " + super.toString();
     }
 }

@@ -38,31 +38,15 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 11-05-2025
 All appointments on 11-5-2025:
-[Onetime]
-Name: Hunt, Ethan
-Date: 11-5-2025
-Description: Mission briefing
-Made on: 2025-09-14T13:17:21.220299
-[Daily]
-Name: Clark, Sophia
-Date: 11-1-2025
-Description: Morning yoga
-Made on: 2025-09-14T13:17:21.230467
+[ONETIME]: Hunt, Ethan - Mission briefing (11-5-2025) | created 2025-09-15T09:17:05.108572
+[DAILY]: Clark, Sophia - Morning yoga (11-1-2025) | created 2025-09-15T09:17:05.129535
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 11-10-2025
 All appointments on 11-10-2025:
-[Daily]
-Name: Clark, Sophia
-Date: 11-1-2025
-Description: Morning yoga
-Made on: 2025-09-14T13:17:21.230467
-[Monthly]
-Name: Turner, Liam
-Date: 11-10-2025
-Description: Pay utilities
-Made on: 2025-09-14T13:17:21.231903
+[DAILY]: Clark, Sophia - Morning yoga (11-1-2025) | created 2025-09-15T09:17:05.129535
+[MONTHLY]: Turner, Liam - Pay utilities (11-10-2025) | created 2025-09-15T09:17:05.134476
 
 Enter an option or 0 to quit: 0
 

@@ -10,11 +10,19 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// ---------------------------------------------------------
+// TODOS:
+// - INPUT SANITIZATION
+// - UPDATE TOSTRING OVERRIDES
+// ---- UPDATE APPOINTMENTS PRINT
+// - ADD COMMENTS
+// - PROFIT??
+// ---------------------------------------------------------
+
 public class Driver {
     
     static Scanner sc = new Scanner(System.in);
 
-    // TODO: INPUT SANITIZATION
     public static void addAppointment(ArrayList<Appointment> appointments) {
         System.out.print("First name: ");
         String firstName = sc.next(); sc.nextLine();

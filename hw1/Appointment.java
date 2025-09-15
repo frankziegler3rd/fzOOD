@@ -46,9 +46,9 @@ public abstract class Appointment {
     public void setDateAppointmentWasMade(LocalDateTime timestamp) { this.timestamp = timestamp; }
 
 	public String toString() {
-		return "Name: " + lastName + ", " + firstName + 
-			   "\nDate: " + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() +
-			   "\nDescription: " + description +
-			   "\nMade on: " + timestamp;
+		return lastName + ", " + firstName + " - " + 
+		       description + 
+			   " (" + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() + ") | " +
+			   "created " + timestamp;
 	}
 }

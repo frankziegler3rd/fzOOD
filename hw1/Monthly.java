@@ -18,6 +18,6 @@ import java.time.LocalDateTime;
     }
 
     public String toString() {
-        return "[Monthly]\n" + super.toString();
+        return "[MONTHLY]: " + super.toString();
     }
  }

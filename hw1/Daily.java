@@ -19,6 +19,6 @@ public class Daily extends Appointment {
     }
 
     public String toString() {
-        return "[Daily]\n" + super.toString();
+        return "[DAILY]: " + super.toString();
     }
  }

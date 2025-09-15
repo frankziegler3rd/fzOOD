@@ -46,36 +46,16 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
 All appointments on 9-14-2025:
-[Onetime]
-Name: Doe, John
-Date: 9-14-2025
-Description: Dentist appointment
-Made on: 2025-09-14T13:17:15.504586
-[Daily]
-Name: Smith, Jane
-Date: 9-10-2025
-Description: Daily workout
-Made on: 2025-09-14T13:17:15.517896
-[Onetime]
-Name: Johnson, Clara
-Date: 9-14-2025
-Description: Team meeting
-Made on: 2025-09-14T13:17:15.524826
+[ONETIME]: Doe, John - Dentist appointment (9-14-2025) | created 2025-09-15T09:17:04.495033
+[DAILY]: Smith, Jane - Daily workout (9-10-2025) | created 2025-09-15T09:17:04.514846
+[ONETIME]: Johnson, Clara - Team meeting (9-14-2025) | created 2025-09-15T09:17:04.524690
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-20-2025
 All appointments on 9-20-2025:
-[Daily]
-Name: Smith, Jane
-Date: 9-10-2025
-Description: Daily workout
-Made on: 2025-09-14T13:17:15.517896
-[Onetime]
-Name: Taylor, Bob
-Date: 9-20-2025
-Description: Eye exam
-Made on: 2025-09-14T13:17:15.522223
+[DAILY]: Smith, Jane - Daily workout (9-10-2025) | created 2025-09-15T09:17:04.514846
+[ONETIME]: Taylor, Bob - Eye exam (9-20-2025) | created 2025-09-15T09:17:04.521874
 
 Enter an option or 0 to quit: 0
 
