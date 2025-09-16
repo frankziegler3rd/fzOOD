@@ -15,23 +15,13 @@ public abstract class Appointment {
 	private LocalDate date;
 	private LocalDateTime timestamp;
 	
-	public Appointment(String firstName, String lastName, String description, LocalDate date, LocalDateTime timestamp) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	public Appointment(String description, LocalDate date, LocalDateTime timestamp) {
 		this.description = description;
 		this.date = date;
 		this.timestamp = timestamp;
 	}	
 
 	public abstract boolean occursOn(int year, int month, int day);
-
-	public String getFirstName() { return firstName; }
-
-	public void setFirstName(String firstName) { this.firstName = firstName; }
-
-    public String getLastName() { return lastName; }
-
-    public void setLastName(String lastName) { this.lastName = lastName; }
 	
 	public String getDescription() { return description; }
 
@@ -46,8 +36,7 @@ public abstract class Appointment {
     public void setDateAppointmentWasMade(LocalDateTime timestamp) { this.timestamp = timestamp; }
 
 	public String toString() {
-		return lastName + ", " + firstName + " - " + 
-		       description + 
+		return description + 
 			   " (" + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() + ") | " +
 			   "created " + timestamp;
 	}

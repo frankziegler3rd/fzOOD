@@ -4,40 +4,30 @@ Enter 2 to search appointments by date.
 
 Enter an option or 0 to quit: 1
 
-First name: John
-Last name: Doe
 Description: Dentist appointment
 Date (MM-DD-YYYY): 09-14-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 
 Enter an option or 0 to quit: 1
 
-First name: Jane
-Last name: Smith
 Description: Daily workout
 Date (MM-DD-YYYY): 09-10-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
 
 Enter an option or 0 to quit: 1
 
-First name: Alice
-Last name: Brown
 Description: Pay rent
 Date (MM-DD-YYYY): 09-01-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
 
 Enter an option or 0 to quit: 1
 
-First name: Bob
-Last name: Taylor
 Description: Eye exam
 Date (MM-DD-YYYY): 09-20-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 
 Enter an option or 0 to quit: 1
 
-First name: Clara
-Last name: Johnson
 Description: Team meeting
 Date (MM-DD-YYYY): 09-14-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
@@ -45,17 +35,17 @@ Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
-All appointments on 9-14-2025:
-[ONETIME]: Doe, John - Dentist appointment (9-14-2025) | created 2025-09-15T09:17:04.495033
-[DAILY]: Smith, Jane - Daily workout (9-10-2025) | created 2025-09-15T09:17:04.514846
-[ONETIME]: Johnson, Clara - Team meeting (9-14-2025) | created 2025-09-15T09:17:04.524690
+Your appointments on 9-14-2025:
+[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T13:26:10.236940
+[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T13:26:10.247547
+[ONETIME]: Team meeting (9-14-2025) | created 2025-09-16T13:26:10.253559
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-20-2025
-All appointments on 9-20-2025:
-[DAILY]: Smith, Jane - Daily workout (9-10-2025) | created 2025-09-15T09:17:04.514846
-[ONETIME]: Taylor, Bob - Eye exam (9-20-2025) | created 2025-09-15T09:17:04.521874
+Your appointments on 9-20-2025:
+[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T13:26:10.247547
+[ONETIME]: Eye exam (9-20-2025) | created 2025-09-16T13:26:10.252469
 
 Enter an option or 0 to quit: 0
 

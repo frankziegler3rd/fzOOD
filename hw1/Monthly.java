@@ -9,8 +9,8 @@ import java.time.LocalDateTime;
 
  public class Monthly extends Appointment {
 
-    public Monthly(String firstName, String lastName, String description, LocalDate date, LocalDateTime timestamp) {
-		super(firstName, lastName, description, date, timestamp);
+    public Monthly(String description, LocalDate date, LocalDateTime timestamp) {
+		super(description, date, timestamp);
 	}
 
     public boolean occursOn(int year, int month, int day) {

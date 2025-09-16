@@ -13,8 +13,6 @@ import java.time.format.DateTimeFormatter;
 // ---------------------------------------------------------
 // TODOS:
 // - INPUT SANITIZATION
-// - UPDATE TOSTRING OVERRIDES
-// ---- UPDATE APPOINTMENTS PRINT
 // - ADD COMMENTS
 // - PROFIT??
 // ---------------------------------------------------------
@@ -23,13 +21,10 @@ public class Driver {
     
     static Scanner sc = new Scanner(System.in);
 
+    /*
+     * 
+     */
     public static void addAppointment(ArrayList<Appointment> appointments) {
-        System.out.print("First name: ");
-        String firstName = sc.next(); sc.nextLine();
-        System.out.println(firstName);
-        System.out.print("Last name: ");
-        String lastName = sc.next(); sc.nextLine();
-        System.out.println(lastName);
         System.out.print("Description: ");
         String description = sc.nextLine();
         System.out.println(description);
@@ -43,11 +38,11 @@ public class Driver {
         int type = sc.nextInt(); sc.nextLine();
         System.out.println(type);
         if (type == 1) {
-            appointments.add(new Onetime(firstName, lastName, description, date, timestamp));
+            appointments.add(new Onetime(description, date, timestamp));
         } else if (type == 2) {
-            appointments.add(new Monthly(firstName, lastName, description, date, timestamp));
+            appointments.add(new Monthly(description, date, timestamp));
         } else {
-            appointments.add(new Daily(firstName, lastName, description, date, timestamp));
+            appointments.add(new Daily(description, date, timestamp));
         }
     }
 
@@ -58,7 +53,7 @@ public class Driver {
         System.out.println(dateString);
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM-dd-yyyy");
         LocalDate date = LocalDate.parse(dateString, dtf);
-        sb.append("All appointments on " + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() + ":");
+        sb.append("Your appointments on " + date.getMonthValue() + "-" + date.getDayOfMonth() + "-" + date.getYear() + ":");
         for (Appointment appointment : appointments) {
             if (appointment.occursOn(date.getYear(), date.getMonthValue(), date.getDayOfMonth())) {
                 sb.append("\n" + appointment.toString());

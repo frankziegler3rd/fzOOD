@@ -4,32 +4,24 @@ Enter 2 to search appointments by date.
 
 Enter an option or 0 to quit: 1
 
-First name: Ethan
-Last name: Hunt
 Description: Mission briefing
 Date (MM-DD-YYYY): 11-05-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 
 Enter an option or 0 to quit: 1
 
-First name: Sophia
-Last name: Clark
 Description: Morning yoga
 Date (MM-DD-YYYY): 11-01-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
 
 Enter an option or 0 to quit: 1
 
-First name: Liam
-Last name: Turner
 Description: Pay utilities
 Date (MM-DD-YYYY): 11-10-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
 
 Enter an option or 0 to quit: 1
 
-First name: Olivia
-Last name: Baker
 Description: Doctor follow-up
 Date (MM-DD-YYYY): 11-15-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
@@ -37,16 +29,16 @@ Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 11-05-2025
-All appointments on 11-5-2025:
-[ONETIME]: Hunt, Ethan - Mission briefing (11-5-2025) | created 2025-09-15T09:17:05.108572
-[DAILY]: Clark, Sophia - Morning yoga (11-1-2025) | created 2025-09-15T09:17:05.129535
+Your appointments on 11-5-2025:
+[ONETIME]: Mission briefing (11-5-2025) | created 2025-09-16T13:26:10.671522
+[DAILY]: Morning yoga (11-1-2025) | created 2025-09-16T13:26:10.682646
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 11-10-2025
-All appointments on 11-10-2025:
-[DAILY]: Clark, Sophia - Morning yoga (11-1-2025) | created 2025-09-15T09:17:05.129535
-[MONTHLY]: Turner, Liam - Pay utilities (11-10-2025) | created 2025-09-15T09:17:05.134476
+Your appointments on 11-10-2025:
+[DAILY]: Morning yoga (11-1-2025) | created 2025-09-16T13:26:10.682646
+[MONTHLY]: Pay utilities (11-10-2025) | created 2025-09-16T13:26:10.686019
 
 Enter an option or 0 to quit: 0
 

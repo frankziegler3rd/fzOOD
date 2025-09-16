@@ -4,32 +4,24 @@ Enter 2 to search appointments by date.
 
 Enter an option or 0 to quit: 1
 
-First name: Mark
-Last name: Johnson
 Description: Project deadline
 Date (MM-DD-YYYY): 12-15-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 
 Enter an option or 0 to quit: 1
 
-First name: Ella
-Last name: Williams
 Description: Daily journaling
 Date (MM-DD-YYYY): 12-01-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
 
 Enter an option or 0 to quit: 1
 
-First name: Noah
-Last name: Davis
 Description: Credit card bill
 Date (MM-DD-YYYY): 06-15-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
 
 Enter an option or 0 to quit: 1
 
-First name: Mia
-Last name: Garcia
 Description: Doctor visit
 Date (MM-DD-YYYY): 12-15-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
@@ -37,11 +29,11 @@ Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 12-15-2025
-All appointments on 12-15-2025:
-[ONETIME]: Johnson, Mark - Project deadline (12-15-2025) | created 2025-09-15T09:17:05.793531
-[DAILY]: Williams, Ella - Daily journaling (12-1-2025) | created 2025-09-15T09:17:05.812134
-[MONTHLY]: Davis, Noah - Credit card bill (6-15-2025) | created 2025-09-15T09:17:05.815884
-[ONETIME]: Garcia, Mia - Doctor visit (12-15-2025) | created 2025-09-15T09:17:05.819718
+Your appointments on 12-15-2025:
+[ONETIME]: Project deadline (12-15-2025) | created 2025-09-16T13:26:11.122752
+[DAILY]: Daily journaling (12-1-2025) | created 2025-09-16T13:26:11.134230
+[MONTHLY]: Credit card bill (6-15-2025) | created 2025-09-16T13:26:11.135936
+[ONETIME]: Doctor visit (12-15-2025) | created 2025-09-16T13:26:11.138498
 
 Enter an option or 0 to quit: 0
 

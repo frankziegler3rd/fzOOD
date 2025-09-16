@@ -4,24 +4,18 @@ Enter 2 to search appointments by date.
 
 Enter an option or 0 to quit: 1
 
-First name: John
-Last name: Doe
 Description: Dentist appointment
 Date (MM-DD-YYYY): 09-14-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
 
 Enter an option or 0 to quit: 1
 
-First name: Jane
-Last name: Smith
 Description: Take medicine
 Date (MM-DD-YYYY): 01-01-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
 
 Enter an option or 0 to quit: 1
 
-First name: Bob
-Last name: Brown
 Description: Pay rent
 Date (MM-DD-YYYY): 01-01-2025
 Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
@@ -29,16 +23,16 @@ Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
-All appointments on 9-14-2025:
-[ONETIME]: Doe, John - Dentist appointment (9-14-2025) | created 2025-09-15T09:17:03.794622
-[DAILY]: Smith, Jane - Take medicine (1-1-2025) | created 2025-09-15T09:17:03.809397
+Your appointments on 9-14-2025:
+[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T13:26:09.804977
+[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T13:26:09.820958
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 01-01-2025
-All appointments on 1-1-2025:
-[DAILY]: Smith, Jane - Take medicine (1-1-2025) | created 2025-09-15T09:17:03.809397
-[MONTHLY]: Brown, Bob - Pay rent (1-1-2025) | created 2025-09-15T09:17:03.812998
+Your appointments on 1-1-2025:
+[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T13:26:09.820958
+[MONTHLY]: Pay rent (1-1-2025) | created 2025-09-16T13:26:09.822633
 
 Enter an option or 0 to quit: 0
 
