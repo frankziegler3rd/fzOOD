@@ -18,9 +18,7 @@ import java.time.format.DateTimeParseException;
  * And 0 to quit the application. 
  *
  * @author Frank Ziegler
- * @version 1.2
- *
- * TO DO: INPUT SANITIZATION, FINISH COMMENTS
+ * @version 1.3
  */
 public class Driver {
     

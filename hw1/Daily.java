@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  * It inherits all top level attributes and does not need any additional ones. 
  *
  * @author Frank Ziegler
- * @version 1.2
+ * @version 1.3
  */
 public class Daily extends Appointment {
 

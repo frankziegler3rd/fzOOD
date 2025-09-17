@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  * 3. It supports polymorphism, thus making this application more reusable. 
  * 
  * @author Frank Ziegler
- * @version 1.2
+ * @version 1.3
  */
 public abstract class Appointment {
 
