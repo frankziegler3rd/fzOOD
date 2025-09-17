@@ -24,15 +24,16 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
 Your appointments on 9-14-2025:
-[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T13:26:09.804977
-[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T13:26:09.820958
+[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T23:03:56.193580
+[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T23:03:56.212846
+[MONTHLY]: Pay rent (1-1-2025) | created 2025-09-16T23:03:56.215394
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 01-01-2025
 Your appointments on 1-1-2025:
-[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T13:26:09.820958
-[MONTHLY]: Pay rent (1-1-2025) | created 2025-09-16T13:26:09.822633
+[DAILY]: Take medicine (1-1-2025) | created 2025-09-16T23:03:56.212846
+[MONTHLY]: Pay rent (1-1-2025) | created 2025-09-16T23:03:56.215394
 
 Enter an option or 0 to quit: 0
 

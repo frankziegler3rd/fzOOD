@@ -1,0 +1,95 @@
+Welcome to HW 1.
+Enter 1 to add a new appointment.
+Enter 2 to search appointments by date.
+
+Enter an option or 0 to quit: 1
+
+Description: Routine dental cleaning
+Date (MM-DD-YYYY): 05-12-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 1
+
+Description: Cognitive behavioral therapy
+Date (MM-DD-YYYY): 06-01-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
+
+Enter an option or 0 to quit: 1
+
+Description: Blood pressure check
+Date (MM-DD-YYYY): 06-01-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
+
+Enter an option or 0 to quit: 1
+
+Description: Orthodontist adjustment
+Date (MM-DD-YYYY): 07-20-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 1
+
+Description: Vision screening
+Date (MM-DD-YYYY): 08-15-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 1
+
+Enter an option or 0 to quit: 1
+
+Description: Flu shot
+Date (MM-DD-YYYY): 10-10-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 2
+
+Enter an option or 0 to quit: 1
+
+Description: Group therapy session
+Date (MM-DD-YYYY): 11-05-2025
+Choose 1 for Onetime, 2 for Monthly, or 3 for Daily: 3
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 05-12-2025
+Your appointments on 5-12-2025:
+[ONETIME]: Routine dental cleaning (5-12-2025) | created 2025-09-16T23:03:58.305386
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 06-01-2025
+Your appointments on 6-1-2025:
+[DAILY]: Cognitive behavioral therapy (6-1-2025) | created 2025-09-16T23:03:58.320625
+[MONTHLY]: Blood pressure check (6-1-2025) | created 2025-09-16T23:03:58.323563
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 07-20-2025
+Your appointments on 7-20-2025:
+[DAILY]: Cognitive behavioral therapy (6-1-2025) | created 2025-09-16T23:03:58.320625
+[MONTHLY]: Blood pressure check (6-1-2025) | created 2025-09-16T23:03:58.323563
+[ONETIME]: Orthodontist adjustment (7-20-2025) | created 2025-09-16T23:03:58.325061
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 08-15-2025
+Your appointments on 8-15-2025:
+[DAILY]: Cognitive behavioral therapy (6-1-2025) | created 2025-09-16T23:03:58.320625
+[MONTHLY]: Blood pressure check (6-1-2025) | created 2025-09-16T23:03:58.323563
+[ONETIME]: Vision screening (8-15-2025) | created 2025-09-16T23:03:58.326086
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 10-10-2025
+Your appointments on 10-10-2025:
+[DAILY]: Cognitive behavioral therapy (6-1-2025) | created 2025-09-16T23:03:58.320625
+[MONTHLY]: Blood pressure check (6-1-2025) | created 2025-09-16T23:03:58.323563
+[MONTHLY]: Flu shot (10-10-2025) | created 2025-09-16T23:03:58.326888
+
+Enter an option or 0 to quit: 2
+
+Enter date to search (MM-DD-YYYY): 11-05-2025
+Your appointments on 11-5-2025:
+[DAILY]: Cognitive behavioral therapy (6-1-2025) | created 2025-09-16T23:03:58.320625
+[MONTHLY]: Blood pressure check (6-1-2025) | created 2025-09-16T23:03:58.323563
+[MONTHLY]: Flu shot (10-10-2025) | created 2025-09-16T23:03:58.326888
+[DAILY]: Group therapy session (11-5-2025) | created 2025-09-16T23:03:58.329160
+
+Enter an option or 0 to quit: 0
+
+Goodbye.

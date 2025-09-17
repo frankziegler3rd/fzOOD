@@ -1,0 +1,41 @@
+1
+Routine dental cleaning
+05-12-2025
+1
+1
+Cognitive behavioral therapy
+06-01-2025
+3
+1
+Blood pressure check
+06-01-2025
+2
+1
+Orthodontist adjustment
+07-20-2025
+1
+1
+Vision screening
+08-15-2025
+1
+1
+Flu shot
+10-10-2025
+2
+1
+Group therapy session
+11-05-2025
+3
+2
+05-12-2025
+2
+06-01-2025
+2
+07-20-2025
+2
+08-15-2025
+2
+10-10-2025
+2
+11-05-2025
+0

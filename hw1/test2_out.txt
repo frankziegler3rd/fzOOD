@@ -36,16 +36,18 @@ Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-14-2025
 Your appointments on 9-14-2025:
-[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T13:26:10.236940
-[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T13:26:10.247547
-[ONETIME]: Team meeting (9-14-2025) | created 2025-09-16T13:26:10.253559
+[ONETIME]: Dentist appointment (9-14-2025) | created 2025-09-16T23:03:56.642752
+[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T23:03:56.664169
+[MONTHLY]: Pay rent (9-1-2025) | created 2025-09-16T23:03:56.666495
+[ONETIME]: Team meeting (9-14-2025) | created 2025-09-16T23:03:56.668811
 
 Enter an option or 0 to quit: 2
 
 Enter date to search (MM-DD-YYYY): 09-20-2025
 Your appointments on 9-20-2025:
-[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T13:26:10.247547
-[ONETIME]: Eye exam (9-20-2025) | created 2025-09-16T13:26:10.252469
+[DAILY]: Daily workout (9-10-2025) | created 2025-09-16T23:03:56.664169
+[MONTHLY]: Pay rent (9-1-2025) | created 2025-09-16T23:03:56.666495
+[ONETIME]: Eye exam (9-20-2025) | created 2025-09-16T23:03:56.668395
 
 Enter an option or 0 to quit: 0
 
