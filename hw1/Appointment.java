@@ -7,7 +7,7 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/*
+/**
  * This class models a generic appointment. 
  * It is declared abstract because:
  * 1. It provides common functionality for three related subclasses.
@@ -23,7 +23,7 @@ public abstract class Appointment {
 	private LocalDate date;
 	private LocalDateTime timestamp; // the date and time the appointment was created
 	
-	/*
+	/**
 	 * Constructs a new appointment.
 	 *
 	 * @param description	description of the appointment
@@ -36,7 +36,7 @@ public abstract class Appointment {
 		this.timestamp = timestamp;
 	}	
 
-	/*
+	/**
 	 * Checks if an appointment with year-month-day date exists.
 	 * It is declared abstract because:
 	 * 1. Subclasses have different use cases for this method. 
@@ -49,49 +49,49 @@ public abstract class Appointment {
 	 */ 
 	public abstract boolean occursOn(int year, int month, int day);
 	
-	/*
+	/**
 	 * Gets the description of the appointment.
 	 *
 	 * @return				description of the appointment
 	 */
 	public String getDescription() { return description; }
 
-	/*
+	/**
 	 * Sets the description of the appointment.
 	 *
 	 * @param description	description of the appointment
 	 */
     public void setDescription(String description) { this.description = description; }
 
-	/*
+	/**
 	 * Gets the date of the appointment.
 	 *
 	 * @return				date of the appointment
 	 */
 	public LocalDate getDate() { return date; }
 
-	/*
+	/**
 	 * Sets the date of the appointment.
 	 *
 	 * @param date			date of the appointment
 	 */
     public void setDate(LocalDate date) { this.date = date; }
 
-	/*
+	/**
 	 * Gets the date and time the appointment was made.
 	 *
 	 * @return				date and time the appointment was made
 	 */
     public LocalDateTime getDateAppointmentWasMade() { return timestamp; }
 
-	/*
+	/**
 	 * Sets the date and time the appointment was made.
 	 *
 	 * @param timestamp		date and time the appointment was made
 	 */
     public void setDateAppointmentWasMade(LocalDateTime timestamp) { this.timestamp = timestamp; }
 
-	/*
+	/**
 	 * Overrides the generic Object toString function and prints appointment details.
 	 *
 	 * @return				string representation of the appointment

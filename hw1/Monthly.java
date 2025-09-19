@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  */
 public class Monthly extends Appointment {
 
-    /*
+    /**
      * Creates a new monthly appointment by calling the parent constructor.
      *
      * @param description	description of the appointment
@@ -27,7 +27,7 @@ public class Monthly extends Appointment {
 		super(description, date, timestamp);
 	}
 
-    /*
+    /**
      * This is the Monthly implementation of the parent occursOn method.
      * Returns true if the date is the date of the appoint or, if it is after and on the same day of the month as the day it was made. 
      * i.e. If the appointment was 9-10-2012:
@@ -44,7 +44,7 @@ public class Monthly extends Appointment {
         return sDate.equals(aDate) || (sDate.isAfter(aDate) && day == sDate.getDayOfMonth());
     }
 
-    /*
+    /**
      * Overrides the Appointment parent toString by appending [MONTHLY] to it, so that users will know it is a monthly appointment.
      * Calls the parent toString for the rest of the work. 
      *

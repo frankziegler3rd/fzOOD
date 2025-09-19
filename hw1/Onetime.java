@@ -7,7 +7,7 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/*
+/**
  * This class represents a Onetime version of the abstract Appointment class.
  * It inherits all top level attributes and does not need any additional ones. 
  *
@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  */
 class Onetime extends Appointment {
 
-	/*
+	/**
      * Creates a new onetime appointment by calling the parent constructor.
      *
      * @param description	description of the appointment
@@ -27,7 +27,7 @@ class Onetime extends Appointment {
 		super(description, date, timestamp);
 	}
 
-    /*
+    /**
      * This is the Onetime implementation of the parent occursOn method.
      * Returns true if the date is the exact date of the appointment.
      *
@@ -39,7 +39,7 @@ class Onetime extends Appointment {
 		return LocalDate.of(year, month, day).equals(super.getDate());
 	}
 
-    /*
+    /**
      * Overrides the Appointment parent toString by appending [ONETIME] to it, so that users will know it is a monthly appointment.
      * Calls the parent toString for the rest of the work. 
      *

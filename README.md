@@ -7,6 +7,8 @@ Each homework assignment will be in a folder entitled "hwX" where X = 1, 2, ...
 To show how my program outputs, I will include:
 1. Test text files, titled testX.txt where X = 1, 2, ...
 2. Test output files, titled testX_out.txt where X = 1, 2, ...
-3. A bash script, titled run_tests.sh, that runs all test text files and appends them to their respective output files.
+3. A bash script, titled run_tests.sh, that compiles all java files and runs all test text files and appends them to their respective output files.
+
+To run all tests, enter the command `./run_tests.sh` in the repository.
 
 If you have any questions about this repository, please let me know. Thank you!
