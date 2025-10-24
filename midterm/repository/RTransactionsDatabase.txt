@@ -11,3 +11,15 @@ customer: frank
 vehicle: 2016 chevrolet impala
 Fee: $0.0
 ----------------
+tid: dac4e854-5747-4e0b-9da3-3b39d0d3e5ed
+type: RENEWAL
+customer: frank ziegler
+vehicle: 2016 chevrolet impala
+Fee: $137.0
+----------------
+tid: 7cf74973-5fcf-4de4-98f4-d9d9eeb62375
+type: RENEWAL
+customer: frank ziegler
+vehicle: 2016 chevrolet impala
+Fee: $137.0
+----------------

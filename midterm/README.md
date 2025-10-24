@@ -47,3 +47,103 @@ The database I chose was a text file for simplicity. `RTransactionRepo` handles 
 The project is structured in such a way that functionality is separated. Any domain objects are a part of the model package. Services like `TransactionService` and fee calculations/rules are a part of the service package. Data persistence is a part of the repository package. 
 
 The rest is basic inheritance and polymorphism. 
+
+# Output
+
+```
+frankzigs@mbp midterm % java -cp out Main
++--------------------------------+
+|                                |
+|      welcome to the njmvc      |
+|   online registration system   |
+|          ood midterm           |
+|         frank ziegler          |
+|                                |
++--------------------------------+
+
+Main Menu
+1. New transaction
+0. Quit
+1
+1. New registration
+2. Renew registration
+3. Transfer registration
+Choose transaction type: 2
+RENEWAL
+1. Individual
+2. Business
+Choose customer type: 1
+1
+Name: frank ziegler
+frank ziegler
+Street address: 34 yarmouth way
+34 yarmouth way
+City: gibbsboro
+gibbsboro
+Abbreviated state (NJ, PA, etc.): nj
+NJ
+Zip: 08026
+08026
+County: camden
+camden
+Your name as it appears on your license: frank w ziegler iii
+frank w ziegler iii
+License number: z4269abc
+z4269abc
+License class (A-E): c
+C
+Date of birth (MM/DD/YYYY): 10/09/1998
+1998-10-09
+Issued date (MM/DD/YYYY): 10/09/2023
+2023-10-09
+Expiry date (MM/DD/YYYY): 10/09/2027
+2027-10-09
+SSN: 152xxxxxx
+152xxxxxx
+1. Car
+2. Truck
+3. Motorcycle
+4. Boat
+5. Commercial
+Choose vehicle type: 1
+1
+Make: chevrolet
+chevrolet
+Model: impala
+impala
+Year: 2016
+chevrolet
+Color: silver
+silver
+Odometer reading: 164000
+164000
+DIESEL, ETHANOL, ELECTRIC, GASOLINE, HYDROGEN, HYBRID, BIODIESEL, NATURAL_GAS, PREMIUM_UNLEADED
+Choose fuel type: gasoline
+GASOLINE
+License plate number: v42rrs
+v42rrs
+GVWR: 10000
+10000.0
+VIN: idkidkidk123456
+idkidkidk123456
+Registration ID: 1
+1
+Issued date (MM/DD/YYYY): 10/09/2024
+Expiry date (MM/DD/YYYY): 10/09/2025
+Your fee is $137.0. To pay, type and enter that number or more.
+Pay here: 137.
+Exact change. I like it.
+Here is your new registration:
+Registration ID: 1
+Owner: frank ziegler
+Vehicle: 2016 chevrolet impala
+Issued: 2025-10-24
+Expires: 2026-10-24
+License plate: v42rrs
+
+Main Menu
+1. New transaction
+0. Quit
+0
+Goodbye.
+```

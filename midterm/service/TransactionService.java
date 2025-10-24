@@ -5,6 +5,7 @@
 */
 package service;
 
+import service.fees.*;
 import repository.*;
 import model.RTransaction;
 import java.util.ArrayList;
