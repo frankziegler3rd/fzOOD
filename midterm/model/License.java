@@ -1,4 +1,10 @@
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
 package model;
+
 import java.time.LocalDate;
 
 public class License {

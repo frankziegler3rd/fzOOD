@@ -1,8 +1,15 @@
-package service;
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+package service.fees;
+
 import model.RTransaction;
 import java.util.List;
 
 public class FeeCalculator {
+    
     private final List<FeeRule> feeRules;
 
     public FeeCalculator(List<FeeRule> feeRules) {

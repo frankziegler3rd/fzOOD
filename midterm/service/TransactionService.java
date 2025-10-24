@@ -1,13 +1,14 @@
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
 package service;
+
 import repository.*;
 import model.RTransaction;
 import java.util.ArrayList;
 import java.util.Arrays;
-/**
- * OOD midterm
- * @author frank w. ziegler III
- * @version 1.0.0
- */
 
 public class TransactionService {
 
@@ -15,7 +16,7 @@ public class TransactionService {
     private RTransactionRepo rtr;
 
     public TransactionService(RTransactionRepo rtr) {
-        rfc = new FeeCalculator(new ArrayList<FeeRule>(Arrays.asList(new BasicAutomobileFeeRule(), new BoatFeeRule(), new MotorcycleFeeRule(), new ZEVFeeRule())));
+        rfc = new FeeCalculator(new ArrayList<FeeRule>(Arrays.asList(new BasicAutomobileFeeRule(), new BoatFeeRule(), new MotorcycleFeeRule(), new ZEVFeeRule(), new CommercialFeeRule())));
         this.rtr = rtr;
     }
 

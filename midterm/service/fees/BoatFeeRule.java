@@ -1,12 +1,14 @@
-package service;
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+package service.fees;
 
 import model.Boat;
 import model.Vehicle;
 import model.RTransaction;
 
-/**
- * source: https://www.nj.gov/mvc/vehicles/regfees.htm
- */
 public class BoatFeeRule implements FeeRule {
     
     public boolean appliesTo(RTransaction rtx) {

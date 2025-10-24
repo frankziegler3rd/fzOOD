@@ -1,4 +1,10 @@
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
 package service;
+
 import model.Customer;
 import model.RTransaction;
 

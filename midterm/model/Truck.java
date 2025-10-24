@@ -1,10 +1,9 @@
-package model;
 /**
- * HW 3
- * OOD; Professor Chu
- * @author Frank Ziegler
- * @version 1.0.0
- */
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+package model;
 
 public class Truck extends Vehicle {
 
@@ -15,7 +14,7 @@ public class Truck extends Vehicle {
         super(make, model, year, color, odometer, fuelType, licensePlate, gvwr);
         this.numWheels = numWheels;
         this.VIN = VIN;
-}
+    }
 
     public int getNumWheels() {
         return numWheels;

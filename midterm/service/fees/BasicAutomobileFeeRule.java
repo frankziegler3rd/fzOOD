@@ -1,13 +1,18 @@
-package service;
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*
+* source: https://www.nj.gov/mvc/vehicles/regfees.htm
+*/
+package service.fees;
 
 import model.Vehicle;
 import model.Car;
 import model.Truck;
 import model.RTransaction;
 import java.time.LocalDate;
-/**
- * source: https://www.nj.gov/mvc/vehicles/regfees.htm
- */
+
 public class BasicAutomobileFeeRule implements FeeRule {
     
     public boolean appliesTo(RTransaction rtx) {

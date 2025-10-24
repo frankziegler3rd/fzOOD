@@ -1,10 +1,9 @@
-package model;
 /**
- * HW 3
- * OOD; Professor Chu
- * @author Frank Ziegler
- * @version 1.0.0
- */
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+package model;
 
 public enum State {
     AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA,

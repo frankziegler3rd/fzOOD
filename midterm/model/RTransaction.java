@@ -1,10 +1,9 @@
-package model;
 /**
- * HW 3
- * OOD; Professor Chu
- * @author Frank Ziegler
- * @version 1.0.0
- */
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+package model;
 
 import java.util.UUID;
 import java.time.LocalDate;

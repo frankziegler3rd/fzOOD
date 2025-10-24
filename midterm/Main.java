@@ -1,13 +1,15 @@
+/**
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*/
+
 import java.io.*;
 import java.util.Scanner;
 import model.*;
 import service.*;
 import repository.*;
 
-/**
- * Transaction builder?
- * Car and truck are basically being treated the same. make them a PassengerAutomobile?
- */
 public class Main {
     
     private static final Scanner sc = new Scanner(System.in);

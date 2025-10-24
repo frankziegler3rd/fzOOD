@@ -1,17 +1,18 @@
-package service;
 /**
- * For right now this is a service that generates license plates of the following format:
- * 
- * LNNLLL
- * 
- * where L is letter A-Z and N is number 0-9. This is a basic NJ license plate.
- * 
- * This does not accurately reflect the NJMVC standards for license plates. Different plate formats belong to different vehicles. 
- * This service should extended to look like the following:
- * https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Jersey
- * 
- * For the purposes of this midterm, it's not pertinent to extend it any further. If I have time, I will.
- */
+* OOD midterm
+* @author frank ziegler
+* @version 1.0.1
+*
+* For right now this is a service that generates license plates of the following format: LNNLLL
+* where L is letter A-Z and N is number 0-9. This is a basic NJ license plate.
+* 
+* This does not accurately reflect the NJMVC standards for license plates. Different plate formats belong to different vehicles. 
+* This service should extended to look like the following:
+* https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Jersey
+* 
+* For the purposes of this midterm, it's not pertinent to extend it any further. If I have time, I will.
+*/
+package service;
 
 import java.util.Random;
 
