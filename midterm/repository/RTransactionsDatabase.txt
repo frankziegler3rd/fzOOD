@@ -1,0 +1,13 @@
+tid: 3ab4bf66-32dc-4f29-b850-c4455463d3af
+type: INITIAL
+customer: frank
+vehicle: 2001 idk idk
+Fee: $28.0
+
+
+tid: 2ed8a7b1-c5e1-4a65-8944-06f20d07dd01
+type: TRANSFER
+customer: frank
+vehicle: 2016 chevrolet impala
+Fee: $0.0
+----------------
