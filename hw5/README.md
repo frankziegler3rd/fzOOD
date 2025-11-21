@@ -1,11 +1,15 @@
 # Frank Ziegler HW 5 Writeup
-## Compiling and Running
+## About
+### Test Cases
+
+There is a test run in testRun.txt.
+### Compiling and Running
 
 If you wish to run this project on your own computer, run the following commands to compile and run:
 
 Compile: `javac -cp lib/gson-2.10.1.jar -d bin $(find . -name "*.java")`
-Run: `java -cp "bin:lib/gson-2.10.1.jar" Client`
 
+Run: `java -cp "bin:lib/gson-2.10.1.jar" Client`
 ## Structure
 
 I designed this application in full-stack fashion:
