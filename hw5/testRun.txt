@@ -1,0 +1,330 @@
+frankzigs@mbp hw5 % cat repo/AccountDB.json repo/UserDB.json                     
+[]
+[]
+frankzigs@mbp hw5 % java -cp "bin:lib/gson-2.10.1.jar" Client                    
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$                                   $$
+$$                                   $$
+$$        ood hw5 credit union       $$
+$$                                   $$
+$$                                   $$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+1. sign in
+2. register
+0. quit
+choose an option: 2
+2
+full name: god
+god
+username: god
+god
+phone number: god
+god
+email: god
+god
+password: god
+god
+welcome to the ood hw5 credit union!
+1. sign in
+2. register
+0. quit
+choose an option: 1
+1
+username: god
+god
+password: god
+god
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 1
+1
+1. checking
+2. saving
+choose account type: 1
+1
+enter the amount you'd like to initially deposit: 0   
+0.0
+this account by default is set for zelle. all zelle transactions will occur within this account.
+account successfully added
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 1
+1
+1. checking
+2. saving
+choose account type: 2
+2
+enter the amount you'd like to initially deposit: 0
+0.0
+account successfully added
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 1
+1
+1. checking
+2. saving
+choose account type: 1
+1
+enter the amount you'd like to initially deposit: 0
+0.0
+account successfully added
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 63ff30c0-d09d-4864-9e9b-e08c202eeeb5 | balance: 0.0
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: f0aaadde-82ff-426f-9314-b0d67cf3e662 | balance: 0.0
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 1bce72c2-a532-41fb-af93-2e51ebc6f010 | balance: 0.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 7
+7
+1. sign in
+2. register
+0. quit
+choose an option: 2
+2
+full name: fz
+fz
+username: fz
+fz
+phone number: fz
+fz
+email: fz
+fz
+password: fz
+fz
+welcome to the ood hw5 credit union!
+1. sign in
+2. register
+0. quit
+choose an option: 1
+1
+username: fz
+fz
+password: fz
+fz
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 1
+1
+1. checking
+2. saving
+choose account type: 1
+1
+enter the amount you'd like to initially deposit: 1000
+1000.0
+this account by default is set for zelle. all zelle transactions will occur within this account.
+account successfully added
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6 
+6
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1000.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 1
+1
+1. checking
+2. saving
+choose account type: 2
+2
+enter the amount you'd like to initially deposit: 20000
+20000.0
+account successfully added
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1000.0
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20000.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 4
+4
+0. fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1000.0
+1. fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20000.0
+choose the account you'd like to deposit to: 1
+1
+deposit amount: 20
+20.0
+20.0 successfully deposited to account
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1000.0
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20020.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 3
+3
+0. fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1000.0
+1. fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20020.0
+choose the account you'd like to withdraw from: 0
+0
+withdrawal amount: 1
+1.0
+1.0 successfully withdrawn from account
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 999.0
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20020.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 5
+5
+1. phone number
+2. email
+choose to zelle via email or phone number: 1
+1
+enter a phone number: god
+god
+how much would you like to send: 998
+zelle successful
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: b761b5b5-2c6b-41f5-b4ef-7380907e693b | balance: 1.0
+fz | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 78c76ae3-d55b-4cbd-9581-524872944875 | balance: 20020.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 7
+7
+1. sign in
+2. register
+0. quit
+choose an option: 1
+1
+username: god
+god
+password: god
+god
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: 6
+6
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 63ff30c0-d09d-4864-9e9b-e08c202eeeb5 | balance: 998.0
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: f0aaadde-82ff-426f-9314-b0d67cf3e662 | balance: 0.0
+god | routing: d7d6bbd8-df65-4881-9006-03c7a8647747 | account number: 1bce72c2-a532-41fb-af93-2e51ebc6f010 | balance: 0.0
+1. open an account
+2. delete an existing account
+3. withdraw
+4. deposit
+5. send via zelle
+6. list my accounts
+7. logout
+0. quit
+choose an option: notice that zelles persist for internal users!
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Client.main(Client.java:250)

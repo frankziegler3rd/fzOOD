@@ -16,7 +16,7 @@ public abstract class Customer {
     private boolean addressChanged;
     private boolean appointment;
 
-    public Customer(String name, String streetAddress, String city, State state, String zip, String county, boolean addressChanged, boolean appointment) {
+    public Customer() {
         this.name = name;
         this.streetAddress = streetAddress;
         this.city = city;
