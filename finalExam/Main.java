@@ -16,17 +16,23 @@ public class Main {
 
     private static final Scanner sc = new Scanner(System.in);
 
-    public static void printChart1UsingJSONData() {/*
+    public static void printChart1UsingJSONData() {
         ChartGetter getter = new JSONSongsGetter();
         ChartCollection coll = getter.fetch();
         ChartIterator chit = new SongsIterator((SongCollection) coll);
         while(chit.hasNext()) {
-            Song song = chit.next();
-            System.out.format("%10d%32s%32s%32s", song.getRank(), song.getTitle(), song.getArtist(), song.getAlbum());
+            Song song = (Song) chit.next();
+            System.out.format(
+                    "%-5d %-40s %-40s %-40s%n", 
+                    song.getRank(), 
+                    trunc(song.getTitle(), 40), 
+                    trunc(song.getArtist(), 40),
+                    trunc(song.getAlbum(), 40)
+            );
             if(song.getRank() == 25) break;
         }
         pl("");
-    */}
+    }
 
     public static void printChart1UsingXMLData() {
         ChartGetter getter = new XMLSongsGetter();
@@ -34,7 +40,13 @@ public class Main {
         ChartIterator chit = new SongsIterator((SongCollection) coll);
         while(chit.hasNext()) {
             Song song = (Song) chit.next();
-            System.out.format("%10d%32s%32s%32s\n", song.getRank(), song.getTitle(), song.getArtist(), song.getAlbum());
+            System.out.format(
+                    "%-5d %-40s %-40s %-40s%n", 
+                    song.getRank(), 
+                    trunc(song.getTitle(), 40), 
+                    trunc(song.getArtist(), 40),
+                    trunc(song.getAlbum(), 40)
+            );
             if(song.getRank() == 25) break;
         }
         pl("");
@@ -45,14 +57,19 @@ public class Main {
     }
 
     public static void printChart2UsingXMLData() {
-
-    }
+        /*ChartGetter getter = new XMLAlbumsGetter();
+        ChartCollection coll = getter.fetch();
+        ChartIterator chit = new AlbumsIterator((AlbumCollection) coll);
+        while(chit.hasNext()) {
+            Album album
+    */}
 
     /**
-     * printing utilities to avoid typing "System.out.print[ln]
+     * printing and formatting utilities
      */
     private static void pl(Object o) { System.out.println(o); }
     private static void p(Object o) { System.out.print(o); }
+    private static String trunc(String s, int max) { return s.length() < max ? s : s.substring(0, max - 3) + "..."; }
 
     public static void main(String[] args) {
         pl("+--------------------------------+");
