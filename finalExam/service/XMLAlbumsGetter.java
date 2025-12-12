@@ -38,7 +38,6 @@ public class XMLAlbumsGetter extends ChartGetter<Document> {
     public Document parse(String raw) {
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            factory.setValidating(true);
             factory.setIgnoringElementContentWhitespace(true);
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document parsedXML = builder.parse(new InputSource(new StringReader(raw)));
