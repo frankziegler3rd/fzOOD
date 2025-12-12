@@ -1,7 +1,7 @@
 /**
  * OOD, professor chu
  * final exam
- *
+ * 
  * collection of albums
  *
  * @author frank ziegler

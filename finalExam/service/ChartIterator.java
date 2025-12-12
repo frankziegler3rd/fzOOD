@@ -11,7 +11,8 @@
 package service;
 
 public interface ChartIterator {
-
+    
+    // typical iterator methods
     boolean hasNext();
     Object next();
 }

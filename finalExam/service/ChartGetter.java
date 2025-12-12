@@ -21,14 +21,23 @@ import java.lang.InterruptedException;
 import java.io.IOException;
 import java.lang.RuntimeException;
 
+/**
+ * uses a generic type T because Object cannot be overridden with the parsed classes (Document, JSONObject, etc.)
+ */
 public abstract class ChartGetter<T> {
-
+    
+    /**
+     * the template method
+     */
     public ChartCollection fetch() {
         String raw = download(getUrl());
         T parsed = parse(raw);
         return extract(parsed);
     }
 
+    /**
+     * connects to data source via URL, makes a GET request, saves the response body as the raw string data.
+     */
     public String download(String urlStr) {
         try {
             HttpClient client = HttpClient.newBuilder().build();
@@ -40,9 +49,18 @@ public abstract class ChartGetter<T> {
         }
     }
 
+    /**
+     * each "getter" requires its own URL. that's why this method.
+     */
     public abstract String getUrl();
 
+    /**
+     * we're dealing with two different formats of data: XML and JSON. they must be parsed differently thus this method needs to be implemented at the subclass level.
+     */
     public abstract T parse(String raw);
 
+    /**
+     * we're dealing with two different types of collection: songs and albums. they must be extracted differently thus this method needs to be implemented at the subclass level. 
+     */
     public abstract ChartCollection extract(T parsed);
 }
