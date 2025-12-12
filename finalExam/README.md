@@ -52,11 +52,29 @@ These two patterns actually very seamlessly work in tandem. The Template Method 
 This is because song fetchers can't make album collections, and vice versa. 
 
 ## Miscellaneous
+### Packages
 
 To parse XML, I used `DocumentBuilderFactory` and `DocumentBuilder`. These are XML parsing tools in the JDK. To parse JSON, I used `JSONObject` and `JSONArray` from `org.json`, which needed to be downloaded and is part of the `lib/` directory. 
+### Output
 
 To format the table output, I used `System.out.format` and formatting patterns. They internally call Java's `Formatter`. 
+### Structure
 
-I structured this repository like a typical backend. `service/` contains fetcher classes, collection classes, and iterator classes. `model/` contains entity classes `Song` and `Album`. The `Main` class is in the root directory. 
+I structured this repository like a typical backend.
+- `service/` contains fetcher classes, collection classes, and iterator classes.
+- `model/` contains entity classes `Song` and `Album`.
+- The `Main` class is in the root directory.
+- Two sample runs in `SampleRunBasic.txt` and `SampleRunWithCustomParams.txt`
+- The UML diagram is inserted above and all the source files are in the `UML Diagram/` directory.
+### Extra
+
+The assignment prompt was:
+"2. Your goal is to produce two charts (text format is fine) of the following:
+- chart 1: top 10 songs, artist name and their album name
+- chart 2: top 10 albums, each listing out the songs from the top 100 songs"
+
+The first prompt the user gets when running this application asks whether or not they want to customize these numbers. If they choose no, then the application prints these charts to the spec listed above. Otherwise, each print requires the user to choose how many songs they want printed or how many albums they want printed (and how many songs per album). 
+
+This was not a requirement by the assignment, but I wanted to test the chart formatting to its limits so I designed this mechanism.
 
 Thanks for a great semester!
