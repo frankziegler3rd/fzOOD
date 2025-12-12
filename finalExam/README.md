@@ -8,6 +8,6 @@ In root directory:
 ### Template Method Design Pattern
 ### Iterator Design Pattern
 ### UML Diagram
-![Final Exam UML Diagram](UML\ Diagram/Frank\ Ziegler\ Final\ Exam\ UML.svg)
+![Final Exam UML Diagram](UML%20Diagram/Frank%20Ziegler%20Final%20Exam%20UML.svg)
 #### Explanation
 ## Miscellaneous
