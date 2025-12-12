@@ -1,0 +1,390 @@
+
+frankzigs@mbp finalExam % java -cp out:lib/json.jar Main
++--------------------------------+
+|                                |
+|           welcome to           |
+|        itunes chart data       |
+|               🎵               |
+|         ood final exam         |
+|         frank ziegler          |
+|                                |
++--------------------------------+
+
+by default, chart 1 displays the top 10 songs, and chart 2 displays the top 10 albums and songs that are
+in those albums that are also in the top 10. you could customize this if you prefer.
+do you want to customize these parameters throughout your run of this application?
+1. yes
+2. no
+choose an option: 1
+1
+customization of parameters is ON
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 1
+1
+display top X songs (type X as positive int): 100
+100
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | album                                    |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | Turn the Lights Off (Radio Edit) [fea... | KATO                                     | Turn the Lights Off (feat. Jon) - Sin... |
+| 2       | Damascus (feat. Omar Souleyman & Yasi... | Gorillaz                                 | The Mountain                             |
+| 3       | Choosin' Texas                           | Ella Langley                             | Choosin' Texas - Single                  |
+| 4       | The Fate of Ophelia                      | Taylor Swift                             | The Life of a Showgirl                   |
+| 5       | All I Want for Christmas Is You          | Mariah Carey                             | Merry Christmas                          |
+| 6       | Golden                                   | HUNTR/X, EJAE, AUDREY NUNA, REI AMI &... | KPop Demon Hunters (Soundtrack from t... |
+| 7       | Prizefighter                             | Mumford & Sons                           | Prizefighter                             |
+| 8       | Man I Need                               | Olivia Dean                              | The Art of Loving                        |
+| 9       | Fall For You                             | Derek Mercer Lyrics                      | DM - EP                                  |
+| 10      | Old Fort Steel Trail                     | Mon Rovîa                                | Bloodline                                |
+| 11      | Ordinary                                 | Alex Warren                              | Ordinary - Single                        |
+| 12      | Underneath the Tree                      | Kelly Clarkson                           | Wrapped In Red                           |
+| 13      | Last Christmas (Single Version)          | Wham!                                    | Last Christmas - Single                  |
+| 14      | Opalite                                  | Taylor Swift                             | The Life of a Showgirl                   |
+| 15      | Rockin' Around the Christmas Tree (Si... | Brenda Lee                               | Rockin' Around the Christmas Tree        |
+| 16      | Mystical Magical                         | Benson Boone                             | American Heart                           |
+| 17      | Heaven Couldn't Wait For You             | Isaac Mather                             | Heaven Couldn't Wait For You - Single    |
+| 18      | Wondering Why                            | The Red Clay Strays                      | Moment of Truth                          |
+| 19      | Silver Springs                           | Fleetwood Mac                            | Rumours (Super Deluxe Edition)           |
+| 20      | Folded                                   | Kehlani                                  | Folded - Single                          |
+| 21      | Turn the Lights Off (feat. Jon)          | KATO                                     | Discolized 2.0                           |
+| 22      | You're a Mean One Mr. Grinch             | Thurl Ravenscroft                        | Dr. Seuss' How the Grinch Stole Chris... |
+| 23      | WHERE IS MY HUSBAND!                     | RAYE                                     | WHERE IS MY HUSBAND! - Single            |
+| 24      | Pink Pony Club                           | Chappell Roan                            | Pink Pony Club - Single                  |
+| 25      | It's the Most Wonderful Time of the Y... | Andy Williams                            | The Andy Williams Christmas Album        |
+| 26      | Christmas (Baby Please Come Home)        | Darlene Love                             | A Christmas Gift For You From Phil Sp... |
+| 27      | Jingle Bell Rock                         | Bobby Helms                              | Jingle Bell Rock / Captain Santa Clau... |
+| 28      | Feliz Navidad                            | José Feliciano                           | Feliz Navidad                            |
+| 29      | Don't Mind If I Do (feat. Ella Langley)  | Riley Green                              | Don't Mind If I Do                       |
+| 30      | you look like you love me                | Ella Langley & Riley Green               | hungover                                 |
+| 31      | back to friends                          | sombr                                    | back to friends - Single                 |
+| 32      | Santa Tell Me                            | Ariana Grande                            | Santa Tell Me - Single                   |
+| 33      | Almost Home                              | Craig Morgan                             | The Journey (Livin' Hits)                |
+| 34      | Don't Answer The Door (feat. Marcus K... | Joe Bonamassa                            | B.B. King's Blues Summit 100             |
+| 35      | Better Me For You (Brown Eyes)           | Max McNown                               | Night Diving                             |
+| 36      | Sleigh Ride                              | The Ronettes                             | A Christmas Gift For You From Phil Sp... |
+| 37      | Snowman                                  | Sia                                      | Everyday Is Christmas (Deluxe)           |
+| 38      | It's Beginning To Look a Lot Like Chr... | Michael Bublé                            | Christmas                                |
+| 39      | Merry Christmas                          | Ed Sheeran & Elton John                  | Merry Christmas - Single                 |
+| 40      | Mary, Did You Know?                      | Pentatonix                               | That's Christmas To Me (Deluxe Edition)  |
+| 41      | So Much Trouble In The World (feat. M... | Lucinda Williams                         | World's Gone Wrong                       |
+| 42      | What's Up?                               | 4 Non Blondes                            | Bigger, Better, Faster, More!            |
+| 43      | A Holly Jolly Christmas (Single Versi... | Burl Ives                                | Have a Holly Jolly Christmas             |
+| 44      | Stand By Me (Live at The Print Shop)     | Stephen Wilson Jr.                       | Stand By Me (Live at The Print Shop) ... |
+| 45      | Left It In The River                     | Jamie MacDonald                          | Left It In The River - EP                |
+| 46      | Lose Control                             | Teddy Swims                              | I've Tried Everything But Therapy (Pa... |
+| 47      | Travelin' Soldier                        | Cody Johnson                             | Travelin' Soldier - Single               |
+| 48      | Beautiful Things                         | Benson Boone                             | Beautiful Things - Single                |
+| 49      | Christmas (Baby Please Come Home)        | Mariah Carey                             | Merry Christmas                          |
+| 50      | One Last Breath                          | Creed                                    | Greatest Hits                            |
+| 51      | Die With A Smile                         | Lady Gaga & Bruno Mars                   | Die With A Smile - Single                |
+| 52      | Let It Snow! Let It Snow! Let It Snow!   | Dean Martin                              | Dino's Christmas                         |
+| 53      | Hide It                                  | Whiskey Circuit                          | Hide It - Single                         |
+| 54      | Giving Her Away                          | Luke Combs                               | Giving Her Away - Single                 |
+| 55      | End of Beginning                         | Djo                                      | DECIDE                                   |
+| 56      | Turn the Lights Off (Extended Version... | KATO                                     | Turn the Lights Off (feat. Jon) - Sin... |
+| 57      | Santa, Can't You Hear Me                 | Kelly Clarkson & Ariana Grande           | When Christmas Comes Around...           |
+| 58      | Run Rudolph Run                          | Chuck Berry                              | Rock 'n Roll Rarities                    |
+| 59      | Soda Pop                                 | Saja Boys, Andrew Choi, Neckwav, Dann... | KPop Demon Hunters (Soundtrack from t... |
+| 60      | Moves                                    | Zach Diamond                             | Moves - Single                           |
+| 61      | What a Crying Shame                      | The Mavericks                            | What a Crying Shame                      |
+| 62      | Love In Letting Go                       | Warren Zeiders & Lanie Gardner           | Relapse, Lies, & Betrayal                |
+| 63      | Please Come Home for Christmas           | Eagles                                   | Please Come Home for Christmas / Funk... |
+| 64      | Zoo                                      | Shakira                                  | Zootopia 2 (Original Motion Picture S... |
+| 65      | Find Your Rest                           | Solomon Ray                              | Find Your Rest - Single                  |
+| 66      | weren't for the wind                     | Ella Langley                             | still hungover                           |
+| 67      | The Christmas Song (Merry Christmas t... | Nat "King" Cole                          | The Christmas Song (Expanded Edition)    |
+| 68      | Someday at Christmas (Live from the E... | Christina Aguilera                       | Christmas in Paris                       |
+| 69      | Merry Christmas, Happy Holidays          | *NSYNC                                   | Home for Christmas                       |
+| 70      | Days Like These                          | Luke Combs                               | The Prequel - Single                     |
+| 71      | For Good                                 | Cynthia Erivo & Ariana Grande            | Wicked: For Good – The Soundtrack        |
+| 72      | Hard Fought Hallelujah                   | Brandon Lake & Jelly Roll                | Hard Fought Hallelujah - Single          |
+| 73      | I Am Not Okay                            | Jelly Roll                               | I Am Not Okay - Single                   |
+| 74      | Landslide (Remastered)                   | Fleetwood Mac                            | Fleetwood Mac (Deluxe)                   |
+| 75      | So Easy (To Fall In Love)                | Olivia Dean                              | The Art of Loving                        |
+| 76      | Blue Christmas                           | Elvis Presley                            | Elvis' Christmas Album                   |
+| 77      | Amen                                     | Shaboozey & Jelly Roll                   | Where I've Been, Isn't Where I'm Goin... |
+| 78      | I Did Something Bad                      | Taylor Swift                             | reputation                               |
+| 79      | Do They Know It's Christmas? (Origina... | Band Aid                                 | Do They Know It's Christmas? (2004 Ve... |
+| 80      | Your Nonsense Makes Sense                | The 502s                                 | Easy Street                              |
+| 81      | Worst Way                                | Riley Green                              | Way Out Here                             |
+| 82      | Candy Cane Lane                          | Sia                                      | Everyday Is Christmas (Deluxe)           |
+| 83      | River                                    | Sarah McLachlan                          | Wintersong                               |
+| 84      | Hard Candy Christmas                     | Dolly Parton                             | Once Upon a Christmas                    |
+| 85      | I Got Better                             | Morgan Wallen                            | I’m The Problem                          |
+| 86      | Walk My Walk                             | Breaking Rust                            | Resilient - EP                           |
+| 87      | Christmas / Sarajevo 12/24 (Instrumen... | Trans-Siberian Orchestra                 | Christmas Eve and Other Stories          |
+| 88      | Santa Baby                               | Eartha Kitt                              | The Essential Eartha Kitt                |
+| 89      | The Fall                                 | Cody Johnson                             | Leather Deluxe Edition                   |
+| 90      | Hallelujah                               | Pentatonix                               | A Pentatonix Christmas (Deluxe)          |
+| 91      | Running Up That Hill (A Deal With God... | Kate Bush                                | Hounds of Love (2018 Remaster)           |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 2
+2
+display top X songs (type X as positive int): 75
+75
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | album                                    |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | Turn the Lights Off (Radio Edit) [fea... | KATO                                     | Turn the Lights Off (feat. Jon) - Sin... |
+| 2       | Damascus (feat. Omar Souleyman & Yasi... | Gorillaz                                 | The Mountain                             |
+| 3       | Choosin' Texas                           | Ella Langley                             | Choosin' Texas - Single                  |
+| 4       | The Fate of Ophelia                      | Taylor Swift                             | The Life of a Showgirl                   |
+| 5       | All I Want for Christmas Is You          | Mariah Carey                             | Merry Christmas                          |
+| 6       | Golden                                   | HUNTR/X, EJAE, AUDREY NUNA, REI AMI &... | KPop Demon Hunters (Soundtrack from t... |
+| 7       | Prizefighter                             | Mumford & Sons                           | Prizefighter                             |
+| 8       | Man I Need                               | Olivia Dean                              | The Art of Loving                        |
+| 9       | Fall For You                             | Derek Mercer Lyrics                      | DM - EP                                  |
+| 10      | Old Fort Steel Trail                     | Mon Rovîa                                | Bloodline                                |
+| 11      | Ordinary                                 | Alex Warren                              | Ordinary - Single                        |
+| 12      | Underneath the Tree                      | Kelly Clarkson                           | Wrapped In Red                           |
+| 13      | Last Christmas (Single Version)          | Wham!                                    | Last Christmas - Single                  |
+| 14      | Opalite                                  | Taylor Swift                             | The Life of a Showgirl                   |
+| 15      | Rockin' Around the Christmas Tree (Si... | Brenda Lee                               | Rockin' Around the Christmas Tree        |
+| 16      | Mystical Magical                         | Benson Boone                             | American Heart                           |
+| 17      | Heaven Couldn't Wait For You             | Isaac Mather                             | Heaven Couldn't Wait For You - Single    |
+| 18      | Wondering Why                            | The Red Clay Strays                      | Moment of Truth                          |
+| 19      | Silver Springs                           | Fleetwood Mac                            | Rumours (Super Deluxe Edition)           |
+| 20      | Folded                                   | Kehlani                                  | Folded - Single                          |
+| 21      | Turn the Lights Off (feat. Jon)          | KATO                                     | Discolized 2.0                           |
+| 22      | You're a Mean One Mr. Grinch             | Thurl Ravenscroft                        | Dr. Seuss' How the Grinch Stole Chris... |
+| 23      | WHERE IS MY HUSBAND!                     | RAYE                                     | WHERE IS MY HUSBAND! - Single            |
+| 24      | Pink Pony Club                           | Chappell Roan                            | Pink Pony Club - Single                  |
+| 25      | It's the Most Wonderful Time of the Y... | Andy Williams                            | The Andy Williams Christmas Album        |
+| 26      | Christmas (Baby Please Come Home)        | Darlene Love                             | A Christmas Gift For You From Phil Sp... |
+| 27      | Jingle Bell Rock                         | Bobby Helms                              | Jingle Bell Rock / Captain Santa Clau... |
+| 28      | Feliz Navidad                            | José Feliciano                           | Feliz Navidad                            |
+| 29      | Don't Mind If I Do (feat. Ella Langley)  | Riley Green                              | Don't Mind If I Do                       |
+| 30      | you look like you love me                | Ella Langley & Riley Green               | hungover                                 |
+| 31      | back to friends                          | sombr                                    | back to friends - Single                 |
+| 32      | Santa Tell Me                            | Ariana Grande                            | Santa Tell Me - Single                   |
+| 33      | Almost Home                              | Craig Morgan                             | The Journey (Livin' Hits)                |
+| 34      | Don't Answer The Door (feat. Marcus K... | Joe Bonamassa                            | B.B. King's Blues Summit 100             |
+| 35      | Better Me For You (Brown Eyes)           | Max McNown                               | Night Diving                             |
+| 36      | Sleigh Ride                              | The Ronettes                             | A Christmas Gift For You From Phil Sp... |
+| 37      | Snowman                                  | Sia                                      | Everyday Is Christmas (Deluxe)           |
+| 38      | It's Beginning To Look a Lot Like Chr... | Michael Bublé                            | Christmas                                |
+| 39      | Merry Christmas                          | Ed Sheeran & Elton John                  | Merry Christmas - Single                 |
+| 40      | Mary, Did You Know?                      | Pentatonix                               | That's Christmas To Me (Deluxe Edition)  |
+| 41      | So Much Trouble In The World (feat. M... | Lucinda Williams                         | World's Gone Wrong                       |
+| 42      | What's Up?                               | 4 Non Blondes                            | Bigger, Better, Faster, More!            |
+| 43      | A Holly Jolly Christmas (Single Versi... | Burl Ives                                | Have a Holly Jolly Christmas             |
+| 44      | Stand By Me (Live at The Print Shop)     | Stephen Wilson Jr.                       | Stand By Me (Live at The Print Shop) ... |
+| 45      | Left It In The River                     | Jamie MacDonald                          | Left It In The River - EP                |
+| 46      | Lose Control                             | Teddy Swims                              | I've Tried Everything But Therapy (Pa... |
+| 47      | Travelin' Soldier                        | Cody Johnson                             | Travelin' Soldier - Single               |
+| 48      | Beautiful Things                         | Benson Boone                             | Beautiful Things - Single                |
+| 49      | Christmas (Baby Please Come Home)        | Mariah Carey                             | Merry Christmas                          |
+| 50      | One Last Breath                          | Creed                                    | Greatest Hits                            |
+| 51      | Die With A Smile                         | Lady Gaga & Bruno Mars                   | Die With A Smile - Single                |
+| 52      | Let It Snow! Let It Snow! Let It Snow!   | Dean Martin                              | Dino's Christmas                         |
+| 53      | Hide It                                  | Whiskey Circuit                          | Hide It - Single                         |
+| 54      | Giving Her Away                          | Luke Combs                               | Giving Her Away - Single                 |
+| 55      | End of Beginning                         | Djo                                      | DECIDE                                   |
+| 56      | Turn the Lights Off (Extended Version... | KATO                                     | Turn the Lights Off (feat. Jon) - Sin... |
+| 57      | Santa, Can't You Hear Me                 | Kelly Clarkson & Ariana Grande           | When Christmas Comes Around...           |
+| 58      | Run Rudolph Run                          | Chuck Berry                              | Rock 'n Roll Rarities                    |
+| 59      | Soda Pop                                 | Saja Boys, Andrew Choi, Neckwav, Dann... | KPop Demon Hunters (Soundtrack from t... |
+| 60      | Moves                                    | Zach Diamond                             | Moves - Single                           |
+| 61      | What a Crying Shame                      | The Mavericks                            | What a Crying Shame                      |
+| 62      | Love In Letting Go                       | Warren Zeiders & Lanie Gardner           | Relapse, Lies, & Betrayal                |
+| 63      | Please Come Home for Christmas           | Eagles                                   | Please Come Home for Christmas / Funk... |
+| 64      | Zoo                                      | Shakira                                  | Zootopia 2 (Original Motion Picture S... |
+| 65      | Find Your Rest                           | Solomon Ray                              | Find Your Rest - Single                  |
+| 66      | weren't for the wind                     | Ella Langley                             | still hungover                           |
+| 67      | The Christmas Song (Merry Christmas t... | Nat "King" Cole                          | The Christmas Song (Expanded Edition)    |
+| 68      | Someday at Christmas (Live from the E... | Christina Aguilera                       | Christmas in Paris                       |
+| 69      | Merry Christmas, Happy Holidays          | *NSYNC                                   | Home for Christmas                       |
+| 70      | Days Like These                          | Luke Combs                               | The Prequel - Single                     |
+| 71      | For Good                                 | Cynthia Erivo & Ariana Grande            | Wicked: For Good – The Soundtrack        |
+| 72      | Hard Fought Hallelujah                   | Brandon Lake & Jelly Roll                | Hard Fought Hallelujah - Single          |
+| 73      | I Am Not Okay                            | Jelly Roll                               | I Am Not Okay - Single                   |
+| 74      | Landslide (Remastered)                   | Fleetwood Mac                            | Fleetwood Mac (Deluxe)                   |
+| 75      | So Easy (To Fall In Love)                | Olivia Dean                              | The Art of Loving                        |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 3
+3
+display top X albums (type X as positive int): 20
+20
+display songs in album where song is in top X (type X as positive int): 100
+20
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | songs in top 10                          |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | A Charlie Brown Christmas (Original 1... | Vince Guaraldi Trio                      | (no songs in top 10)                     |
+| 2       | Christmas                                | Michael Bublé                            | It's Beginning To Look a Lot Like Chr... |
+| 3       | KPop Demon Hunters (Soundtrack from t... | KPop Demon Hunters Cast, HUNTR/X & Sa... | Golden                                   |
+|         |                                          |                                          | Soda Pop                                 |
+| 4       | Wicked: For Good – The Soundtrack        | Wicked Movie Cast, Cynthia Erivo & Ar... | For Good                                 |
+| 5       | The Best Of Pentatonix Christmas         | Pentatonix                               | (no songs in top 10)                     |
+| 6       | Christmas in the City                    | Pentatonix                               | (no songs in top 10)                     |
+| 7       | Rejoice! (A Celtic Christmas)            | We Are Messengers                        | (no songs in top 10)                     |
+| 8       | reputation                               | Taylor Swift                             | I Did Something Bad                      |
+| 9       | The Art of Loving                        | Olivia Dean                              | Man I Need                               |
+|         |                                          |                                          | So Easy (To Fall In Love)                |
+| 10      | this is what christmas feels like        | JVKE & Forrest Frank                     | (no songs in top 10)                     |
+| 11      | Snow Waltz (Deluxe Edition)              | Lindsey Stirling                         | (no songs in top 10)                     |
+| 12      | The Mavericks: The Definitive Collect... | The Mavericks                            | (no songs in top 10)                     |
+| 13      | CONFLICT DLC                             | HEALTH                                   | (no songs in top 10)                     |
+| 14      | Made by These Moments                    | The Red Clay Strays                      | (no songs in top 10)                     |
+| 15      | Noël (Deluxe Edition)                    | Josh Groban                              | (no songs in top 10)                     |
+| 16      | All-Time Greatest Hits (Deluxe Version)  | Neil Diamond                             | (no songs in top 10)                     |
+| 17      | Wrapped In Red                           | Kelly Clarkson                           | Underneath the Tree                      |
+| 18      | EvangelCore 1                            | Peyton Parrish                           | (no songs in top 10)                     |
+| 19      | A Drummer Boy Christmas +                | for KING & COUNTRY                       | (no songs in top 10)                     |
+| 20      | What a Crying Shame                      | The Mavericks                            | What a Crying Shame                      |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 4
+4
+display top X albums (type X as positive int): 12
+12
+display songs in album where song is in top X (type X as positive int): 10
+12
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | songs in top 10                          |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | A Charlie Brown Christmas (Original 1... | Vince Guaraldi Trio                      | (no songs in top 10)                     |
+| 2       | Christmas                                | Michael Bublé                            | (no songs in top 10)                     |
+| 3       | KPop Demon Hunters (Soundtrack from t... | KPop Demon Hunters Cast, HUNTR/X & Sa... | Golden                                   |
+| 4       | Wicked: For Good – The Soundtrack        | Wicked Movie Cast, Cynthia Erivo & Ar... | (no songs in top 10)                     |
+| 5       | The Best Of Pentatonix Christmas         | Pentatonix                               | (no songs in top 10)                     |
+| 6       | Christmas in the City                    | Pentatonix                               | (no songs in top 10)                     |
+| 7       | Rejoice! (A Celtic Christmas)            | We Are Messengers                        | (no songs in top 10)                     |
+| 8       | reputation                               | Taylor Swift                             | (no songs in top 10)                     |
+| 9       | The Art of Loving                        | Olivia Dean                              | Man I Need                               |
+| 10      | this is what christmas feels like        | JVKE & Forrest Frank                     | (no songs in top 10)                     |
+| 11      | Snow Waltz (Deluxe Edition)              | Lindsey Stirling                         | (no songs in top 10)                     |
+| 12      | The Mavericks: The Definitive Collect... | The Mavericks                            | (no songs in top 10)                     |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 5
+5
+display top X albums (type X as positive int): 6
+6
+display songs in album where song is in top X (type X as positive int): 100
+6
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | songs in top 10                          |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | A Charlie Brown Christmas (Original 1... | Vince Guaraldi Trio                      | (no songs in top 10)                     |
+| 2       | Christmas                                | Michael Bublé                            | It's Beginning To Look a Lot Like Chr... |
+| 3       | KPop Demon Hunters (Soundtrack from t... | KPop Demon Hunters Cast, HUNTR/X & Sa... | Golden                                   |
+|         |                                          |                                          | Soda Pop                                 |
+| 4       | Wicked: For Good – The Soundtrack        | Wicked Movie Cast, Cynthia Erivo & Ar... | For Good                                 |
+| 5       | The Best Of Pentatonix Christmas         | Pentatonix                               | (no songs in top 10)                     |
+| 6       | Christmas in the City                    | Pentatonix                               | (no songs in top 10)                     |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 6
+6
+display top X albums (type X as positive int): 25
+25
+display songs in album where song is in top X (type X as positive int): 75 
+25
++------------------------------------------------------------------------------------------------------------------------------------------+
+| rank    | title                                    | artist                                   | songs in top 10                          |
++------------------------------------------------------------------------------------------------------------------------------------------+
+| 1       | A Charlie Brown Christmas (Original 1... | Vince Guaraldi Trio                      | (no songs in top 10)                     |
+| 2       | Christmas                                | Michael Bublé                            | It's Beginning To Look a Lot Like Chr... |
+| 3       | KPop Demon Hunters (Soundtrack from t... | KPop Demon Hunters Cast, HUNTR/X & Sa... | Golden                                   |
+|         |                                          |                                          | Soda Pop                                 |
+| 4       | Wicked: For Good – The Soundtrack        | Wicked Movie Cast, Cynthia Erivo & Ar... | For Good                                 |
+| 5       | The Best Of Pentatonix Christmas         | Pentatonix                               | (no songs in top 10)                     |
+| 6       | Christmas in the City                    | Pentatonix                               | (no songs in top 10)                     |
+| 7       | Rejoice! (A Celtic Christmas)            | We Are Messengers                        | (no songs in top 10)                     |
+| 8       | reputation                               | Taylor Swift                             | (no songs in top 10)                     |
+| 9       | The Art of Loving                        | Olivia Dean                              | Man I Need                               |
+|         |                                          |                                          | So Easy (To Fall In Love)                |
+| 10      | this is what christmas feels like        | JVKE & Forrest Frank                     | (no songs in top 10)                     |
+| 11      | Snow Waltz (Deluxe Edition)              | Lindsey Stirling                         | (no songs in top 10)                     |
+| 12      | The Mavericks: The Definitive Collect... | The Mavericks                            | (no songs in top 10)                     |
+| 13      | CONFLICT DLC                             | HEALTH                                   | (no songs in top 10)                     |
+| 14      | Made by These Moments                    | The Red Clay Strays                      | (no songs in top 10)                     |
+| 15      | Noël (Deluxe Edition)                    | Josh Groban                              | (no songs in top 10)                     |
+| 16      | All-Time Greatest Hits (Deluxe Version)  | Neil Diamond                             | (no songs in top 10)                     |
+| 17      | Wrapped In Red                           | Kelly Clarkson                           | Underneath the Tree                      |
+| 18      | EvangelCore 1                            | Peyton Parrish                           | (no songs in top 10)                     |
+| 19      | A Drummer Boy Christmas +                | for KING & COUNTRY                       | (no songs in top 10)                     |
+| 20      | What a Crying Shame                      | The Mavericks                            | What a Crying Shame                      |
+| 21      | Snow Globe Town                          | Brad Paisley                             | (no songs in top 10)                     |
+| 22      | Merry Christmas                          | Mariah Carey                             | All I Want for Christmas Is You          |
+|         |                                          |                                          | Christmas (Baby Please Come Home)        |
+| 23      | Wicked: The Soundtrack                   | Wicked Movie Cast, Cynthia Erivo & Ar... | (no songs in top 10)                     |
+| 24      | FEAR - EP                                | NF                                       | (no songs in top 10)                     |
+| 25      | The Christmas Song (Expanded Edition)    | Nat "King" Cole                          | The Christmas Song (Merry Christmas t... |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+                         CHART 1 OPTIONS                          
+1. print chart 1 using the JSON songs data
+2. print chart 1 using the XML songs data
+
+                         CHART 2 OPTIONS                          
+3. print chart 2 using the JSON albums data and JSON songs data
+4. print chart 2 using the XML albums data and XML songs data
+5. print chart 2 using the JSON albums data and XML songs data
+6. print chart 2 using the XML albums data and the JSON songs data
+0. quit
+choose an option: 0
+0
+goodbye.
